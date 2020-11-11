@@ -16,17 +16,7 @@ export default function FriendForm(props) {
 
   const onSubmit = event => {
     event.preventDefault();
-
-    props.addTeamMember({
-      name: event.target.name.value,
-      email: event.target.email.value,
-      role: event.target.role.value
-    });
-    // setTeamMembers({
-    //   name: "",
-    //   email: "",
-    //   role: ""
-    // });
+    props.setOldTeamMembers([...props.oldTeamMembers, teamMembers]);
   };
 
   return (
