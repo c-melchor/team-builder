@@ -1,5 +1,6 @@
 import "./App.css";
 import React, { useState } from "react";
+
 import Friend from "./Friend";
 import FriendForm from "./FriendForm";
 
@@ -13,10 +14,6 @@ function App() {
   const [oldTeamMembers, setOldTeamMembers] = useState(teamMembers);
 
   function addTeamMember(addedTeamMember) {
-    console.log(addedTeamMember, "app.js/22");
-
-    console.log(oldTeamMembers, "just OLD TEAM MEMEBERSSSSS");
-
     setOldTeamMembers([...oldTeamMembers, addTeamMember]);
   }
 
