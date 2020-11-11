@@ -10,13 +10,13 @@ In this project you'll build an app that will keep track of memebers of a team. 
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your team lead as collaborator on Github.
-- [ ] Clone your OWN version of the repository in your terminal
-- [ ] Use `npx create-react-app team-builder --use-npm` or `create-react-app team-builder` to initiate the project.
-- [ ] CD into your `team-builder` directory
-- [ ] Start up the app using `npm start`
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x ] Create a forked copy of this project.
+- [NA ] Add your team lead as collaborator on Github.
+- [x ] Clone your OWN version of the repository in your terminal
+- [x ] Use `npx create-react-app team-builder --use-npm` or `create-react-app team-builder` to initiate the project.
+- [x ] CD into your `team-builder` directory
+- [x ] Start up the app using `npm start`
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
@@ -27,8 +27,8 @@ In this project you'll build an app that will keep track of memebers of a team. 
 
 #### Setup your state
 
-- [ ] Import the `useState` hook and set up state to keep your team members list.
-- [ ] Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
+- [x ] Import the `useState` hook and set up state to keep your team members list.
+- [x ] Give the state variable you just declared a default value. You will need to keep track of a list of team members and each team member will have several key/value pairs associated with them.
 - [ ] Render your list of team members.
 
 #### Build your form
@@ -83,4 +83,4 @@ After finishing your required elements, you can push your work further. These go
 
 ## Submission Format
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` (student's Repo). **Please don't merge your own pull request**
